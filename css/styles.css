@@ -1,0 +1,27 @@
+head {
+    background-color: slategray 
+    }
+
+body {
+    background-color: slategray
+}
+
+h3{
+    text-align: right;
+    margin: 0 auto; 
+    font-size: 75px; 
+    color: rgb(3, 3, 75); 
+    margin-top: 25px;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto; 
+    font-size: 20px; 
+    color: rgb(3, 3, 75);  
+}
+
+img{
+    float: right;
+    margin-top: 150px;    
+}
