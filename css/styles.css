@@ -1,16 +1,16 @@
 head {
-    background-color: slategray 
+    background-color: #333333
     }
 
 body {
-    background-color: slategray
+    background-color: #333333
 }
 
 h3{
-    text-align: right;
+    text-align: center;
     margin: 0 auto; 
     font-size: 75px; 
-    color: rgb(3, 3, 75); 
+    color: #ffffff; 
     margin-top: 25px;
 }
 
@@ -18,10 +18,21 @@ p{
     text-align: center;
     margin: 0 auto; 
     font-size: 20px; 
-    color: rgb(3, 3, 75);  
+    color: #ffffff;  
 }
 
-img{
-    float: right;
-    margin-top: 150px;    
+.place{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
