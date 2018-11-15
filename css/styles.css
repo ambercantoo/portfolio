@@ -7,9 +7,13 @@ body {
     height: 100%; 
     background-size: cover; 
     }
-
+ 
 #about {
     margin-top: 100px;
+}
+h2 {
+    text-align: center; 
+    text-emphasis: bold; 
 }
 
 h3{
@@ -26,8 +30,16 @@ p{
     font-weight: 500;
     margin: 0 auto; 
     font-size: 20px; 
-    color: #000000;  
+    color: #000000;
+    padding-bottom: 70px;
 }
+
+div{
+   margin-right: auto;
+   margin-left: auto;
+}
+
+/*Headshot photo*/
 
 .headshot{
     display: block;
@@ -35,25 +47,17 @@ p{
     margin-right: auto;
     padding-top: 20px; 
     padding-bottom: 20px;
-   }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-img {
     border-radius: 50%; 
     max-width: 50%; 
     height: auto;
-}
+   }
+
+/*Footer*/
 
 footer {
     width: 100%;
     min-height: 30px;
-    padding: 50px 0 40px 20px;
+    padding: 50px 0 40px 20px; 
   }
 
 footer ul {
@@ -62,14 +66,70 @@ footer ul {
     padding: 0;
   }
   
-  footer ul li {
+footer ul li {
     display: inline-block;
   }
 
-  .flex-container {
-    display: flex; 
-    justify-content: center; 
-    flex-flow: row wrap; 
+  /*Services*/
+
+#options {
+    border: 2px solid black; 
+    padding-bottom: none;
+    margin: 0 200px; 
+}
+
+.left-list {
+    margin-top: 0; 
+}
+
+.right-list {
+    margin-bottom: 0; 
+}
+
+ /*Containers*/
+/*Bio display settings*/
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
  }
 
+ /*Resume display settings*/
+
+.resume {
+    margin-left: 50px;
+    margin-right: 50px;
+ }
  
+ .resume img {
+    display: block;
+    padding-top: 50px; 
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: auto;
+ }
+
+/* Responsive design for phones */
+@media screen and (max-width : 660px) {
+ 
+ /*Services border and text size*/   
+    #options {
+        border: none; 
+        font-size: 1em;
+    }
+
+/*text size*/
+    h1 {
+        font-size: 3em;
+     }
+  
+     h2 {
+        font-size: 2em;
+     }
+
+/*hide resume*/
+     .resume {
+        display: none;  
+     }
+}
