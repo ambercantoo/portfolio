@@ -128,7 +128,7 @@ footer ul li {
         font-size: 2em;
      }
 
-/*hide resume*/
+/*hide resume on small screens*/
      .resume {
         display: none;  
      }
